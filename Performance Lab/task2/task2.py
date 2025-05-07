@@ -1,3 +1,7 @@
+import sys
+
+circle_file = sys.argv[1]
+dots_file = sys.argv[2]
 
 with open('circle.txt', 'r') as f:
     x, y = map(float, f.readline().split())
